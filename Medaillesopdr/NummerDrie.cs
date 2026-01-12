@@ -9,8 +9,7 @@ namespace Medaillesopdr
 {
     internal class NummerDrie
     {
-        private String warm = "oh lekker warm";
-        private String cold = "oei das best koud";
+   
         public void drie()
         {
             

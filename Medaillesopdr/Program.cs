@@ -10,8 +10,10 @@ namespace Medaillesopdr
     {
         static void Main(string[] args)
         {
-            NummerTwee twee = new NummerTwee();
-            twee.twee();
+            //NummerVier vier = new NummerVier();
+            //vier.numbFour();
+            NummerDrie drie = new NummerDrie();
+            drie.drie();
         }
     }
 }
