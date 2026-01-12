@@ -10,11 +10,13 @@ namespace Medaillesopdr
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
-            String name = Console.ReadLine();
-            Console.WriteLine("How old are you?");
-            String age = Console.ReadLine();
-            Console.WriteLine("Your name is " + name + "and you are" + age + " years old.");
+            NummerTwee twee = new NummerTwee();
+            twee.twee();
         }
     }
 }
+
+
+//for future self, as example: 
+//NummerTwee twee = new NummerTwee();
+//twee.twee();

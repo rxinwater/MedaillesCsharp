@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{568F4977-F1CB-431A-8642-2B8056E0B75C}</ProjectGuid>
+    <ProjectGuid>{9C186B2E-B718-494D-8BA9-3D98DCE8E4B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Medaillesopdr</RootNamespace>
-    <AssemblyName>Medaillesopdr</AssemblyName>
+    <RootNamespace>MedailleTwee</RootNamespace>
+    <AssemblyName>MedailleTwee</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NummerDrie.cs" />
-    <Compile Include="Nummereen.cs" />
-    <Compile Include="NummerTwee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
