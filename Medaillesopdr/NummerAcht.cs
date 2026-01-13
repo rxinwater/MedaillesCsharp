@@ -16,23 +16,23 @@ namespace Medaillesopdr
         public class Player
         {
 
-            private string Name;
-            private int Level;
-            private int Lives;
+            private string _name;
+            private int level;
+            private int lives;
 
            
 
             public Player(string name, int lvl, int lives)
             {
-                Name = name;
-                Level = lvl;
-                Lives = lives;
+                _name = name;
+                level = lvl;
+                this.lives = lives;
             }
             
 
             public void ShowStats()
             {
-              Console.WriteLine("You're called " + Name + ". You're level " + Level + " with " + Lives + " Lives remaining");
+              Console.WriteLine("You're called " + _name + ". You're level " + level + " with " + lives + " Lives remaining");
             }
             
            
