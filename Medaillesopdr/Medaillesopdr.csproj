@@ -43,10 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NummerAcht.cs" />
     <Compile Include="NummerVier.cs" />
     <Compile Include="NummerDrie.cs" />
     <Compile Include="Nummereen.cs" />
     <Compile Include="NummerTwee.cs" />
+    <Compile Include="NummerVijf.cs" />
+    <Compile Include="NummerZes.cs" />
+    <Compile Include="NummerZeven.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
