@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Media;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Medaillesopdr
 {
@@ -12,19 +6,29 @@ namespace Medaillesopdr
     {
         static void Main(string[] args)
         {
-
             //NummerZes zes = new NummerZes();
             //zes.nummerzes();
             //NummerZeven zeven = new NummerZeven();
             //zeven.Nummerzeven();
 
-            NummerAcht.Player zxro = new NummerAcht.Player("Zxro", 1);
-            NummerAcht.Player ducky = new NummerAcht.Player("Duck", 999);
-            zxro.ShowStats();
-            ducky.ShowStats();
+
+
+            //NummerAcht game = new NummerAcht();
+
+            //game.AddPlayer(new NummerAcht.Player("Henry", 11, 1));
+            //game.AddPlayer(new NummerAcht.Player("Jacob", 50, 3));
+            //game.AddPlayer(new NummerAcht.Player("Steve", 100, 5));
+
+            //game.ShowAll();
+
+            NummerNegen.Weapons goldstabby = new NummerNegen.Weapons("Gouden Prikker", 10);
+
+            goldstabby.ShowStats();
 
         }
     }
 }
+
+
 
 

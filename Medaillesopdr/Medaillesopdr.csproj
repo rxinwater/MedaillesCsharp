@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NummerAcht.cs" />
+    <Compile Include="NummerNegen.cs" />
     <Compile Include="NummerVier.cs" />
     <Compile Include="NummerDrie.cs" />
     <Compile Include="Nummereen.cs" />
